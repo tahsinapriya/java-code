@@ -1,0 +1,26 @@
+package com.tahsina.it;
+
+import java.util.Scanner;
+
+public class Condition1 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("enter first string:");
+		String string1 = input.nextLine();
+		
+		System.out.println("enter first string:");
+		String string2 = input.nextLine();
+		
+		if(string1.contains (string2)) {
+			System.out.println(string1+"is equal to "+string2);
+		}
+		else {
+			System.out.println("hi");
+		}
+		
+
+	}
+
+}

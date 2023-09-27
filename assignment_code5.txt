@@ -1,0 +1,33 @@
+package com.tahsina.it;
+
+public class Count {
+	public void sum (int a, int b) {
+		System.out.println("sum of two numbers : "+(a+b));
+	}
+	public void sub (int a, int b) {
+		System.out.println("sub of two numbers: "+(a-b));
+	}
+	
+	public void mult (int a, int b) {
+		System.out.println("mult of two numbers: "+(a*b));
+	}
+	
+	public void div (int a, int b) {
+		System.out.println("div of two numbers: "+(a/b));
+	}
+	
+	public void rem (int a, int b) {
+		System.out.println("rem of two numbers: "+(a%b));
+	}
+
+	public static void main(String[] args) {
+		Count example = new Count();
+		example.sum(5,5);
+		example.sub(5,5);
+		example.mult(5,5);
+		example.div(5,5);
+		example.rem(5,5);
+
+	}
+
+}

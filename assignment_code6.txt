@@ -1,0 +1,15 @@
+package com.tahsina.it;
+
+public class DiffClass {
+
+	public static void main(String[] args) {
+		Count obj = new Count();
+		obj.sum(6, 6);
+		obj.sub(6, 6);
+		obj.mult(6, 6);
+		obj.div(6, 6);
+		obj.rem(6, 6);
+
+	}
+
+}

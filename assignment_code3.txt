@@ -1,0 +1,18 @@
+package com.tahsina.it;
+
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		// ArrayList <Datatype> arrayListName = new ArrayList<Datatype>();
+		ArrayList <String> names = new ArrayList<String>();
+		
+		names.add("Rahim");
+		names.add("Karim");
+		
+		System.out.println(names);
+
+	}
+
+}

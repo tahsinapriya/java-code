@@ -1,0 +1,22 @@
+package com.tahsina.it;
+
+public class MethodSmallest {
+	public void smallest(int a, int b, int c) {
+		if(a < b && a < c ) {
+			System.out.println("a is the smallest");
+		}
+		else if( b < a && b < c) {
+			System.out.println("b is the smallest");
+		}
+		else if( c < a && c < b) {
+			System.out.println("c is the smallest");
+		}
+	}
+
+	public static void main(String[] args) {
+		MethodSmallest sm = new MethodSmallest();
+		sm.smallest(20, 10 ,8);
+
+	}
+
+}

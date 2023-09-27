@@ -1,0 +1,14 @@
+package com.tahsina.it;
+
+public class Method {
+	public void avg (int a, int b, int c) {
+		System.out.println("average of three : "+(a+b+c)/3.0);
+	}
+
+	public static void main(String[] args) {
+		Method example = new Method();
+		example.avg(4, 5, 5);
+
+	}
+
+}
